@@ -1,0 +1,12 @@
+{
+    "googlePopUp": {
+        "emailField": "#identifierId",
+        "passwordField": "input[type='password']",
+        "continueBtn": "Continue",
+        "selectChecker": "checkbox[name=\"Select all\"]",
+        "nextBtn": "Next"
+    },
+    "youtubeTile": ".select-platform > :nth-child(4)",
+    "googleConnectBtn": ".google-and-youtube-login-container > div > app-button > .ant-btn",
+    "bakeryText": "@dina_bakery_shop"
+}
