@@ -9,7 +9,7 @@ const paths = {
 }
 
 test.beforeEach(async ({ page }) => {
-  await page.goto(`${paths.socialConnect}`, {
+  await page.goto(`${process.env.TEST_URL}${paths.socialConnect}`, {
     //  waitUntil: 'load', // wait until page is done loading
     waitUntil: 'domcontentloaded', // wait until DOMContentLoaded event is fired
   });
